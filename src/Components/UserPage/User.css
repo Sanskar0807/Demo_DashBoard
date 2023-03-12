@@ -1,0 +1,64 @@
+.card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* display: flex;
+    flex-direction: column; */
+    width: 15rem;
+
+}
+.Newcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+.card-Icon{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.card-Icon1{
+    cursor: pointer;
+
+}
+.card-Icon2{
+    cursor: pointer;
+
+}
+.card-Icon3{
+    cursor: pointer;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .card-body {
+        flex-grow: 1;
+    }
+
+    .card-text {
+        margin-bottom: 0;
+    }
+}
